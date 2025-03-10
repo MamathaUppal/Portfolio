@@ -69,7 +69,7 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <!-- <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li> -->
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
         <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li> -->
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
@@ -157,14 +157,14 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>Angular,HTML-CSS,JS</span> <i class="val">100%</i></span>
+              <span class="skill"><span>Angular, HTML-CSS, JS, Python</span> <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>Jasmine-Karma, NodeJS, TS, ExpressJS, JSON, Restful API's, RxJs</span> <i class="val">75%</i></span>
+              <span class="skill"><span>Jasmine-Karma, NodeJS, TS, ExpressJS, JSON, Restful API's, RxJs, NgRx, Responsive UI Design</span> <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -189,14 +189,14 @@
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>MongoDB, Oracle DB, Basics of Java, R, Mongoose, JBoss, widefly, Eclipse IDE </span> <i class="val">55%</i></span>
+              <span class="skill"><span>MongoDB, Oracle DB, Core Java, R, Mongoose, JBoss, widefly, Eclipse IDE </span> <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>Window, ubuntu</span> <i class="val">60%</i></span>
+              <span class="skill"><span>Window, ubuntu, Mac</span> <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -301,6 +301,15 @@
                   Embedded computing system, Internet of things, Computer vision, Information network security.</p>
             </div><!-- Edn Resume Item -->
 
+            <div class="resume-item">
+              <h4>MASTER'S IN BUSINESS ANALYTICS, <em>GPA: 4</em></h4>
+              <h5>Aug 2024 - Dec 2025</h5>
+              <p><em>EAST TEXAS A&M UNVERSITY-COMMERCE, DALLAS, USA</em></p>
+              <p>Analytics for manager, Data science in R, Analytics for programming python, Data base management,
+                Applied decision modeling, Marketing research component, Emerging technologies
+              </p>
+            </div><!-- Edn Resume Item -->
+
           </div>
 
          
@@ -312,54 +321,182 @@
     </section><!-- /Resume Section -->
 
     <!-- Portfolio Section -->
-    <!-- <section id="portfolio" class="portfolio section light-background"> -->
+   <section id="portfolio" class="portfolio section light-background"> 
 
       <!-- Section Title -->
-      <!-- <div class="container section-title" data-aos="fade-up">
+     <div class="container section-title" data-aos="fade-up">
         <h2>Projects</h2>
-      </div> -->
+      </div>
       <!-- End Section Title -->
 
-      <!-- <div class="container">
+      <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/faq-chatbot.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>An Intergrated Chatbot for the Online Shopping System</p>
-                  <a href="assets/img/portfolio/faq-chatbot.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+           <!--heart disease --> 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="cursor: pointer;">
+              <div class="portfolio-content h-100" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+                  <img src="assets/img/portfolio/Heart-Disease.png" class="img-fluid custom-img" alt="">
+                  <div class="portfolio-info">
+                      <h4>Project 1</h4>
+                      <p>Heart Disease Prediction</p>
+                  </div>
               </div>
+          </div>
+          <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="portfolioModalLabel">Linear Regression Analysis for Disease Progression Prediction</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <!-- Image Section -->
+                            <div class="col-lg-6 text-center img-width">
+                                <img src="assets/img/portfolio/Heart-Disease.png" class="img-fluid" alt="App 2 Image">
+                            </div>
+                            <!-- Project Details Section -->
+                                <div class="portfolio-info">
+                                    <h3>Project Information</h3>
+                                    <ul>
+                                        <li><strong style="color: #808a93;">Acdemic Project : </strong> <spam style="color: #336c77;font-weight:400;">Analytics for Programming Python</spam></li>
+                                        <li><strong style="color: #808a93;">Technology Used : </strong><spam style="color: #336c77;font-weight:400;">Python, sklearn, Matplotlib, scipy</spam> </li>
+                                        <li><strong style="color: #808a93;">Project Date : </strong><spam style="color: #336c77;font-weight:400;">Sep 2024 - Nov 2024</spam> </li>
+                                        <li><strong style="color: #808a93;">Github : </strong> 
+                                          <a href="https://github.com/MamathaUppal/heart-disease-prediction" target="_blank" style="color: #336c77; text-decoration: underline; font-weight: 500;">
+                                              heart-disease-prediction
+                                          </a>
+                                      </li>
+                                    </ul>
+                                </div>
+                                <div class="portfolio-description">
+                                    <h2>Project Overview</h2>
+                                    <p>
+                                        This project applies Machine Learning (ML) techniques to analyze and predict disease progression using Linear Regression.
+                                        The model is trained on a dataset containing multiple patient features and aims to identify key influential factors 
+                                        that contribute to disease progression. The project includes data preprocessing, model training, evaluation, and feature correlation analysis.
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <!--post sphere --> 
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="cursor: pointer;">
+          <div class="portfolio-content h-100" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+              <img src="assets/img/portfolio/post/post1.png" class="img-fluid custom-img" alt="">
+              <div class="portfolio-info">
+                  <h4>Project 2</h4>
+                  <p>PostSphere</p>
+              </div>
+          </div>
+      </div>
+      <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModalLabel2">MEAN Stack Blogging Application</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Image Section -->
+                        <div class="col-lg-6 text-center img-width">
+                            <img src="assets/img/portfolio/post/post1.png" width="550"class="img-fluid" alt="App 2 Image">
+                        </div>
+                        <!-- Project Details Section -->
+                            <div class="portfolio-info">
+                                <h3>Project Information</h3>
+                                <ul>
+                                    <li><strong style="color: #808a93;">Project : </strong> <spam style="color: #336c77;font-weight:400;">MEAN Stack Blogging Application</spam></li>
+                                    <li><strong style="color: #808a93;">Technology Used : </strong><spam style="color: #336c77;font-weight:400;">Angular, NodeJs, MongoDB, Express.js, JSON Web Token (JWT)</spam> </li>
+                                    <li><strong style="color: #808a93;">Project Date : </strong><spam style="color: #336c77;font-weight:400;">Jan 2024 - Feb 2024</spam> </li>
+                                    <li><strong style="color: #808a93;">Github : </strong> 
+                                      <a href="https://github.com/MamathaUppal/PostSphere" target="_blank" style="color: #336c77; text-decoration: underline; font-weight: 500;">
+                                        PostSphere
+                                      </a>
+                                  </li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-description">
+                                <h2>Project Overview</h2>
+                                <p>
+                                  The MEAN Stack Blogging Application allows users to register, log in, and manage their own posts, while viewing others' posts in read-only mode. 
+                                  Users can securely authenticate with JWT, create posts with a title, content, and optional image, and edit or delete their own content. All posts are publicly visible, but only the author can modify them.
+                                   Users can browse and read posts without making changes and log out securely when done. This application ensures a simple, secure, and user-friendly blogging experience with role-based access control.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--pay flow-->
+    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="cursor: pointer;">
+      <div class="portfolio-content h-100" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+          <img src="assets/img/portfolio/payflow/payflow.png" class="img-fluid custom-img" alt="">
+          <div class="portfolio-info">
+              <h4>Project 3</h4>
+              <p>PayFlow</p>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="portfolioModalLabel3">PayFlow – Secure Payment Processing with NgRx</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <!-- Image Section -->
+                    <div class="col-lg-6 text-center img-width">
+                        <img src="assets/img/portfolio/payflow/payflow.png" width="550"class="img-fluid" alt="App 2 Image">
+                    </div>
+                    <!-- Project Details Section -->
+                        <div class="portfolio-info">
+                            <h3>Project Information</h3>
+                            <ul>
+                                <li><strong style="color: #808a93;">Project : </strong> <spam style="color: #336c77;font-weight:400;">PayFlow – Secure Payment Processing with NgRx</spam></li>
+                                <li><strong style="color: #808a93;">Technology Used : </strong><spam style="color: #336c77;font-weight:400;">Angular, NgRx, RxJs</spam> </li>
+                                <li><strong style="color: #808a93;">Project Date : </strong><spam style="color: #336c77;font-weight:400;">Mar 2021 - Mar 2021</spam> </li>
+                                <li><strong style="color: #808a93;">Github : </strong> 
+                                  <a href="https://github.com/MamathaUppal/PayFlow" target="_blank" style="color: #336c77; text-decoration: underline; font-weight: 500;">
+                                    PayFlow
+                                  </a>
+                              </li>
+                            </ul>
+                        </div>
+                        <div class="portfolio-description">
+                            <h2>Project Overview</h2>
+                            <p>
+                              PayFlow is an Angular-based web application that enables users to make secure online payments using their card details.
+                               The application integrates NgRx for state management, ensuring a smooth and efficient user experience. 
+                               Upon completing a payment, users receive real-time feedback with success or failure notifications. Additionally, the application maintains a payment history, allowing users to track their past transactions.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
 
         </div>
 
-        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-            <div class="portfolio-content h-100">
-              <img src="assets/img/portfolio/faq-chatbot.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Computer Graphics - Impact of Plastic</p>
-                <a href="assets/img/portfolio/App2/App2-1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div>
-        
+       
 
       </div>
 
-      </div>
-
-    </section> -->
+    </section> 
     <!-- /Portfolio Section -->
 
     <!-- Services Section -->
